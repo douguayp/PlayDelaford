@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Delaford - an immersive browser-based medieval MMORPG. Explore a vast world, complete quests, and connect with other players in this free-to-play online adventure.">
+    <title>Play Delaford - Free Browser-Based Medieval MMORPG</title>
+    <link rel="canonical" href="https://playdelaford.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // Apple-inspired color palette
+                        'apple-blue': '#007AFF',
+                        'apple-green': '#34C759',
+                        'apple-indigo': '#5856D6',
+                        'apple-orange': '#FF9500',
+                        'apple-pink': '#FF2D55',
+                        'apple-purple': '#AF52DE',
+                        'apple-red': '#FF3B30',
+                        'apple-teal': '#5AC8FA',
+                        'apple-yellow': '#FFCC00',
+                        'apple-gray': {
+                            100: '#F5F5F5',
+                            200: '#EEEEEE',
+                            300: '#E0E0E0',
+                            400: '#BDBDBD',
+                            500: '#9E9E9E',
+                            600: '#757575',
+                            700: '#616161',
+                            800: '#424242',
+                            900: '#212121',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .game-container {
+            height: 600px;
+            max-height: 80vh;
+        }
+        
+        @media (max-width: 640px) {
+            .game-container {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-gray-100 text-apple-gray-900">
+    <header class="bg-gradient-to-r from-apple-blue to-apple-indigo text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 md:py-8">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center">Play Delaford</h1>
+            <p class="text-lg md:text-xl text-center mt-2 max-w-3xl mx-auto">
+                An immersive browser-based medieval MMORPG where your adventure awaits
+            </p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="game-container w-full">
+                    <iframe 
+                        src="https://play.delaford.com" 
+                        class="w-full h-full border-0"
+                        title="Play Delaford Online Game"
+                        allow="fullscreen"
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="p-4 md:p-6 bg-gradient-to-r from-apple-blue/10 to-apple-indigo/10">
+                    <p class="text-center text-apple-gray-600">
+                        Having trouble with the game? <a href="#" class="text-apple-blue hover:underline">Refresh</a> or check our <a href="#faq" class="text-apple-blue hover:underline">FAQ section</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-gray-800 border-b-2 border-apple-blue pb-2">
+                About Delaford
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h2 class="text-xl font-semibold mb-3 text-apple-blue">A World of Adventure</h2>
+                    <p class="text-apple-gray-700 leading-relaxed">
+                        Delaford is a free-to-play browser-based MMORPG set in a medieval fantasy world. Explore vast landscapes, dense forests, mysterious caves, and bustling towns as you embark on an epic journey. Customize your character, develop skills, and make your mark on this ever-evolving world.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h2 class="text-xl font-semibold mb-3 text-apple-blue">Community-Driven Experience</h2>
+                    <p class="text-apple-gray-700 leading-relaxed">
+                        Connect with players from around the globe, form alliances, trade resources, and tackle challenging quests together. Delaford's community is at the heart of the game, creating a rich social experience that goes beyond traditional gameplay.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-gray-800 border-b-2 border-apple-blue pb-2">
+                Game Features
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-5 rounded-xl shadow-md border-t-4 border-apple-green">
+                    <h2 class="text-xl font-semibold mb-2 text-apple-green">Character Progression</h2>
+                    <p class="text-apple-gray-700">
+                        Develop your character with diverse skills, powerful equipment, and unique abilities. Chart your own path through the game world.
+                    </p>
+                </div>
+                <div class="bg-white p-5 rounded-xl shadow-md border-t-4 border-apple-orange">
+                    <h2 class="text-xl font-semibold mb-2 text-apple-orange">Crafting & Economy</h2>
+                    <p class="text-apple-gray-700">
+                        Gather resources, master crafting techniques, and participate in a player-driven economy where your skills and contributions matter.
+                    </p>
+                </div>
+                <div class="bg-white p-5 rounded-xl shadow-md border-t-4 border-apple-purple">
+                    <h2 class="text-xl font-semibold mb-2 text-apple-purple">Quests & Adventures</h2>
+                    <p class="text-apple-gray-700">
+                        Embark on epic quests, uncover ancient mysteries, and face challenging foes as you explore the rich lore of the Delaford world.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12" id="faq">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-gray-800 border-b-2 border-apple-blue pb-2">
+                Frequently Asked Questions
+            </h2>
+            <div class="space-y-4">
+                <div class="bg-white p-5 rounded-xl shadow-md">
+                    <h2 class="text-lg font-semibold mb-2 text-apple-blue">What are the system requirements?</h2>
+                    <p class="text-apple-gray-700">
+                        Delaford is designed to run in modern web browsers. We recommend using the latest version of Chrome, Firefox, or Safari for the best experience. No downloads or installations required!
+                    </p>
+                </div>
+                <div class="bg-white p-5 rounded-xl shadow-md">
+                    <h2 class="text-lg font-semibold mb-2 text-apple-blue">Is the game free to play?</h2>
+                    <p class="text-apple-gray-700">
+                        Yes! Delaford is completely free to play. While there may be optional cosmetic purchases to support development, all core gameplay features are accessible to all players.
+                    </p>
+                </div>
+                <div class="bg-white p-5 rounded-xl shadow-md">
+                    <h2 class="text-lg font-semibold mb-2 text-apple-blue">How do I get started?</h2>
+                    <p class="text-apple-gray-700">
+                        Simply create an account, customize your character, and jump right into the game! Our beginner-friendly tutorial will guide you through your first steps in the world of Delaford.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h2 class="text-xl font-bold mb-2">Play Delaford</h2>
+                    <p class="text-apple-gray-400">
+                        © 2023 Delaford. All rights reserved.
+                    </p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-apple-gray-300 hover:text-white transition-colors">
+                        Terms of Service
+                    </a>
+                    <a href="#" class="text-apple-gray-300 hover:text-white transition-colors">
+                        Privacy Policy
+                    </a>
+                    <a href="#" class="text-apple-gray-300 hover:text-white transition-colors">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
